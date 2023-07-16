@@ -3,5 +3,8 @@ using namespace std;
 
 int main()
 {
-    cout << "Variables" << endl;
+    // Storing an integer
+    int numberOfSomething = 4;
+
+    cout << "Number of Dogs" << numberOfSomething << endl;
 }
