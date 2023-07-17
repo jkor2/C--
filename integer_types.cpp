@@ -8,5 +8,8 @@ int main()
     cout << "Interger Types" << endl;
 
     // Max integer
-    cout << INT_MAX << endl;
+    cout << "max INT Value: " << INT_MAX << endl;
+
+    // Min Integer
+    cout << "min INT Value: " << INT_MIN << endl;
 }
