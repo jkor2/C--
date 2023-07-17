@@ -21,4 +21,20 @@ int main()
     cin >> value;
 
     cout << "You are " << value << " years old." << endl;
+
+    cout << "Lets do some addition" << endl;
+
+    cout << "Enter the first number you would like to add: " << flush;
+
+    int number1;
+
+    cin >> number1;
+
+    cout << "Enter the second number: " << flush;
+
+    int number2;
+
+    cin >> number2;
+
+    cout << "This eqaula: " << number1 + number2 << endl;
 }
