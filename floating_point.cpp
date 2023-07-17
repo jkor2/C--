@@ -4,5 +4,8 @@ using namespace std;
 
 int main()
 {
-    cout << "Yo" << endl;
+    // Float type (Decimals in integrers)
+    float value = 77.1;
+
+    cout << "Yo" << value << endl;
 }
