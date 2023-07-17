@@ -20,4 +20,7 @@ int main()
     // Short INT
     short int value_short = 12345;
     cout << value_short << endl;
+
+    // Size of operator
+    cout << "Size of intL " << sizeof(value) << endl;
 }
