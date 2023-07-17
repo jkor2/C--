@@ -15,4 +15,9 @@ int main()
     // Single Ascii characters 1 byte of memory
     char value_char = 1;
     cout << value_char << endl;
+
+    // wchar_t
+    // Greater range of charcaters not represented in char
+    wchar_t value_wchar_t = 7;
+    cout << value_wchar_t << endl;
 }
