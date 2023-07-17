@@ -23,4 +23,10 @@ int main()
 
     // Size of operator
     cout << "Size of intL " << sizeof(value) << endl;
+
+    // Only postive intergers
+    unsigned int value_pos = 12345;
+
+    // Only negatives intergers
+    signed int value_neg = -1234;
 }
