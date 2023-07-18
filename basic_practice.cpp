@@ -22,6 +22,15 @@ int main()
     if (choice == 1)
     {
         cout << "You have selected addition." << endl;
+        cout << "Please select the first number > " << flush;
+        int value1;
+        cin >> value1;
+        cout << "Please select the second number > " << flush;
+        int value2;
+        cin >> value2;
+
+        // Result
+        cout << value1 + value2 << endl;
     }
     else if (choice == 2)
     {
