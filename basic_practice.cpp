@@ -1,4 +1,5 @@
 #include <iostream>
+// Included for square root
 #include <cmath>
 
 using namespace std;
