@@ -14,7 +14,12 @@ int main()
 
     cin >> user_input;
 
-    
-    
-
+    if (user_input == password)
+    {
+        cout << "Correct - You may enter!";
+    }
+    else
+    {
+        cout << "Passwords do not match";
+    }
 }
