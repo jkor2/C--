@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -35,18 +36,47 @@ int main()
     else if (choice == 2)
     {
         cout << "You have selected subtraction." << endl;
+        cout << "Please select the first number > " << flush;
+        int value1;
+        cin >> value1;
+        cout << "Please select the second number > " << flush;
+        int value2;
+
+        // Result
+        cout << value1 - value2 << endl;
     }
     else if (choice == 3)
     {
         cout << "You have selected multiplication" << endl;
+        cout << "Please select the first number > " << flush;
+        int value1;
+        cin >> value1;
+        cout << "Please select the second number > " << flush;
+        int value2;
+
+        // Result
+        cout << value1 * value2 << endl;
     }
     else if (choice == 4)
     {
         cout << "You have selected division" << endl;
+        cout << "Please select the first number > " << flush;
+        int value1;
+        cin >> value1;
+        cout << "Please select the second number > " << flush;
+        int value2;
+
+        // Result
+        cout << value1 / value2 << endl;
     }
     else if (choice == 5)
     {
         cout << "You have selected square root" << endl;
+        cout << "Please select the value number > " << flush;
+        int value1;
+        cin >> value1;
+        // Result
+        cout << sqrt(value1) << endl;
     }
     else
     {
