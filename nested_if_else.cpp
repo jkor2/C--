@@ -1,5 +1,5 @@
 #include <iostream>
-
+// Repetitve code huh
 using namespace std;
 
 int main()
