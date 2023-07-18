@@ -7,10 +7,9 @@ using namespace std;
 int main()
 {
     int choice;
+    // Do / While to keep it running unless a number greater than 5 is selected.
     do
-
     {
-
         // Presenting options
         cout << "Welcome, what kind of math would you like to do?" << endl;
         cout << "1. Addition" << endl;
