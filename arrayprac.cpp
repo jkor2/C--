@@ -24,9 +24,11 @@ int main()
         // Secondary loop through 2d
         for (int j = 0; j < sizeof(arr[i]) / sizeof(arr[i][0]); j++)
         {
+            // cout the line
             cout << "|" << arr[i][j] << "|" << flush;
         }
 
+        // line break to begin the next row
         cout << endl;
     }
 }
