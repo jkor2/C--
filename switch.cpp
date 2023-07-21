@@ -24,7 +24,7 @@ int main()
     case 5:
         cout << "Value is 5" << endl;
         break;
-    default:
+    default: // Default if value is not given.
         cout << "Value given is not compatibale" << endl;
         break;
     }
