@@ -7,7 +7,7 @@ int main()
 {
     int value = 6;
 
-    switch (value)
+    switch (value) // The variable that is going to be analyzed
     {
     case 1:
         cout << "Value is 1" << endl;
