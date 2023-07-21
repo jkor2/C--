@@ -11,4 +11,18 @@ int main()
     {
         cout << "At index " << i << " the value is " << values[i] << endl;
     }
+
+    cout << endl
+         << "#################" << endl;
+
+    // Creating array with - - no values
+    int values2[10] = {}; // By default, no value
+    // loop through and assign values
+
+    for (int i = 0; i < sizeof(values2) / sizeof(values[0]); i++)
+    {
+        values2[i] = i;
+
+        cout << values[i] << endl;
+    }
 }
