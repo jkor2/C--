@@ -2,12 +2,18 @@
 
 using namespace std;
 
-int main()
+// Init function
+void showMenu()
 {
-
     cout << "Search" << endl;
     cout << "View" << endl;
     cout << "Quit" << endl;
+}
+
+int main()
+{
+    // Calling function
+    showMenu();
 
     cout << "Enter a Selection" << endl;
 
