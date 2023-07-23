@@ -10,11 +10,8 @@ void showMenu()
     cout << "Quit" << endl;
 }
 
-int main()
+void handleUSer()
 {
-    // Calling function
-    showMenu();
-
     cout << "Enter a Selection" << endl;
 
     int input;
@@ -35,4 +32,11 @@ int main()
     default:
         cout << "Please select and item from the menu" << endl;
     }
+}
+
+int main()
+{
+    // Calling function
+    showMenu();
+    handleUSer();
 }
