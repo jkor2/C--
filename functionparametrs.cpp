@@ -19,7 +19,7 @@ int getInput()
     return input;
 }
 
-void processSelection(int input)
+void processSelection(int input) // Have to add type / variable in arg
 {
     switch (input)
     {
