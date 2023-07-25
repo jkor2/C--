@@ -1,18 +1,20 @@
 #include <iostream>
+#include "Cat.h"
 
 using namespace std;
 
-void speak()
+// Cat:: - Means this x function belongs to Cat class
+void Cat::speak()
 {
     cout << "Meow" << endl;
 };
 
-void jump()
+void Cat::jump()
 {
     cout << "Jumping" << endl;
 };
 
-void purr()
+void Cat::purr()
 {
     cout << "Purrrrrr" << endl;
 };
