@@ -3,12 +3,12 @@
 
 using namespace std;
 
-void hello()
+void Hi::hello()
 {
     cout << "Hello " << flush;
 }
 
-void world()
+void Hi::world()
 {
     cout << "World!";
 }
