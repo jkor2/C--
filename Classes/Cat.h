@@ -2,5 +2,7 @@
 #define CAT_H_
 
 void speak();
+void purr();
+void jump();
 
 #endif
