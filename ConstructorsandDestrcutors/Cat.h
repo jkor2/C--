@@ -7,7 +7,8 @@ private:
     bool happy;
 
 public:
-    void speak();
+    void speak(); // Speak Method
+    Cat();        // Constrcutor
 };
 
 #endif
