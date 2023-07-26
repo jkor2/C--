@@ -4,6 +4,7 @@
 class Cat
 {
 public:
+    bool happy;
     void speak();
 };
 

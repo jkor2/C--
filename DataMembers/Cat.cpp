@@ -3,5 +3,13 @@
 
 void Cat::speak()
 {
-    std::cout << "Meow";
+
+    if (happy)
+    {
+        std::cout << "Meow";
+    }
+    else
+    {
+        std::cout << "Rawww";
+    }
 }
