@@ -9,6 +9,13 @@ Cat::Cat()
     happy = true;
 }
 
+// Cat Destrcutor
+// Will run when scope ends
+Cat::~Cat()
+{
+    std::cout << "Cat Destroyed" << std::endl;
+}
+
 void Cat::speak()
 {
 

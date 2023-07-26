@@ -9,6 +9,7 @@ private:
 public:
     void speak(); // Speak Method
     Cat();        // Constrcutor
+    ~Cat();       // Destrcutor
 };
 
 #endif
