@@ -5,8 +5,10 @@ int main()
 {
     std::cout << "Starting Program" << std::endl;
 
-    Cat bob;
-    bob.speak();
+    { // Changing the scope - dealloacting memory
+        Cat bob;
+        bob.speak();
+    }
 
     std::cout << "Ending Program" << std::endl;
 }
