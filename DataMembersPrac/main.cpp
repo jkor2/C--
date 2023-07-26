@@ -6,5 +6,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Connected";
+    Person person1;
+    person1.greeting();
+    person1.privateData();
 }
