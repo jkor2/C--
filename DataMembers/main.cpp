@@ -7,6 +7,5 @@ int main()
 {
     // Cat class
     Cat jim;
-
-    cout << "Connected";
+    jim.speak();
 }
