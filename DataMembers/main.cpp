@@ -5,7 +5,9 @@ using namespace std;
 
 int main()
 {
-    // Cat 1
+
+    // Restricting direct access to happy boolean through encapsulation
+    //  Cat 1
     Cat jim;
     jim.makeHappy();
     jim.speak();
