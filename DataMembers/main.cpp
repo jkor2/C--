@@ -7,12 +7,11 @@ int main()
 {
     // Cat 1
     Cat jim;
-
-    jim.happy = true;
+    jim.makeHappy();
     jim.speak();
 
     // Cat 2
     Cat bob;
-    bob.happy = false;
+    jim.makeSad();
     bob.speak();
 }

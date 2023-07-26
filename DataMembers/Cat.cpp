@@ -12,4 +12,14 @@ void Cat::speak()
     {
         std::cout << "Rawww";
     }
+};
+
+void Cat::makeHappy()
+{
+    happy = true;
+};
+
+void Cat::makeSad()
+{
+    happy = false;
 }
